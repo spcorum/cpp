@@ -39,7 +39,6 @@ int main(int argc, const char *argv[]) {
 	// This function queries the user for the number of pennies, nickels,
 	// dimes, quarters, and half dollars and prints the results to output.
 
-    //cout << "Enter number of pennies: ";
 	int num_penny = get_denomination("pennies");
 	int num_nickle = get_denomination("nickles");
 	int num_dime = get_denomination("dimes");
