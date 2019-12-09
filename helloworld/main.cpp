@@ -25,5 +25,5 @@ int main(int argc, const char * argv[]) {
     int one = 1;
     cout << "The result of " << one << " + " << one << " is " <<  addition(one,one) << ".\n";
     cout << "Hello, world!" << endl;
-    return NULL;
+    return 0;
 }
