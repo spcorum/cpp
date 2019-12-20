@@ -33,5 +33,4 @@ int main()
     cout << "max: " << out_stats.max << endl;
     cout << "mean: " << out_stats.mean << endl;
     cout << "median: " << out_stats.median << endl;
-    //cout << "you got here\n";
 }
