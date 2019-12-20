@@ -53,6 +53,8 @@ STATS compute_stats(vector<int>& v) {
     // NOTE: v is sorted in the call to calc_median, which is noteworthy
     // since v is passed by reference to this function.
 
+    if (v.empty()) throw runtime_error("v cannot be empty");
+
     STATS my_stats;
     double sum = 0;
 
