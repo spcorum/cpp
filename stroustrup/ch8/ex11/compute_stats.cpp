@@ -12,27 +12,6 @@ using namespace std;
 Part of Stroustop Chapter 8 Exercise 11. See comments in main.cpp.
 */
 
-/*
-double calc_median(vector<int>& v) {
-
-  int size = v.size();
-
-  if (size == 0) return 0;  // Undefined, really.
-  else
-  {
-    sort(v);
-    if (size % 2 == 0)
-    {
-      return (v[size / 2 - 1] + v[size / 2]) / 2;
-    }
-    else
-    {
-      return v[size / 2];
-    }
-  }
-}
-*/
-
 double calc_median(vector<int>& v)
 {
   int size = v.size();
