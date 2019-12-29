@@ -2,12 +2,19 @@
 Part of Stroustop Chapter 9 Drill. See comments in main.cpp.
 */
 
+enum Month {
+    jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec
+};
+
+// Simple date, use Month type
 class Date {
-    int y, m, d;  // year, month, day
+    int y;   // year
+    Month m; // month
+    int d;   // day
 public:
-    Date(int y, int m, int d);  // check for valid date and initialize
+    Date(int y, Month m, int d);  // check for valid date and initialize
     void add_day(int n);
-    int month() const {return m; }
+    Month month() const {return m; }
     int day() const {return d; }
     int year() const {return y; }
 };

@@ -22,7 +22,7 @@ void init_date(Date& dd, int y, int m, int d)
 }
 */
 
-Date::Date(int y, int m, int d)
+Date::Date(int y, Month m, int d)
     :y{y}, m{m}, d{d}
 {
     if(m <= 1 || m >= 12) throw runtime_error("Invalid month.");

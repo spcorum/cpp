@@ -24,10 +24,10 @@ invalid date (e.g., 2004, 13, -5).
 
 int main()
 {
-    Date today(1978, 6, 25);
+    Date today(1978, jun, 25);
     Date tomorrow = today;
     tomorrow.add_day(1);
     cout << today << endl;
     cout << tomorrow << endl;
-    // Date bad(2004, 13, -5);
+    // Date bad(2004, jun, -5);
 }
