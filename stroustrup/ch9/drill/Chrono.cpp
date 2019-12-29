@@ -11,17 +11,6 @@ using namespace std;
 Part of Stroustop Chapter 9 Drill. See comments in main.cpp.
 */
 
-/*
-void init_date(Date& dd, int y, int m, int d)
-{
-    if(m <= 1 || m >= 12) throw runtime_error("Invalid month.");
-    if(d <= 1 || d >= 31) throw runtime_error("Invalid day.");
-    dd.y = y;
-    dd.m = m;
-    dd.d = d;
-}
-*/
-
 Date::Date(int y, Month m, int d)
     :y{y}, m{m}, d{d}
 {
