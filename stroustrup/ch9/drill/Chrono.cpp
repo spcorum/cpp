@@ -36,7 +36,7 @@ void Date::add_day(int n)
 
 ostream& operator<<(ostream& os, const Date& d)
 {
-    return os << '(' << d.y << ','
-              << d.m << ','
-              << d.d << ')';
+    return os << '(' << d.year() << ','
+              << d.month() << ','
+              << d.day() << ')';
 }

@@ -29,5 +29,5 @@ int main()
     tomorrow.add_day(1);
     cout << today << endl;
     cout << tomorrow << endl;
-    Date bad(2004, 13, -5);
+    // Date bad(2004, 13, -5);
 }
